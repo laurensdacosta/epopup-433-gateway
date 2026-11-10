@@ -1,0 +1,23 @@
+# Upstream checkout, cached PlatformIO files and build artifacts
+.build/
+dist/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Local secrets, binary dumps and credentials (never commit)
+*.bin
+*.bak
+*.secrets.*
+*.env
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
